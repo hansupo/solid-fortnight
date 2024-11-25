@@ -14,7 +14,7 @@ public partial class Form1 : Form
     public Form1()
     {
         InitializeComponent(); // Initialize the form components
-  //      this.FormBorderStyle = FormBorderStyle.FixedSingle; // Disable resizing
+        this.FormBorderStyle = FormBorderStyle.FixedSingle; // Disable resizing
         CreateCalculatorUI(); // Create the calculator user interface
     }
 
