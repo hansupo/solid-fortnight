@@ -12,3 +12,4 @@ C:\Users\hansupo\Documents\GitHub\solid-fortnight\MyWinFormsApp\obj\Debug\net9.0
 C:\Users\hansupo\Documents\GitHub\solid-fortnight\MyWinFormsApp\obj\Debug\net9.0-windows\MyWinFormsApp.pdb
 C:\Users\hansupo\Documents\GitHub\solid-fortnight\MyWinFormsApp\obj\Debug\net9.0-windows\MyWinFormsApp.genruntimeconfig.cache
 C:\Users\hansupo\Documents\GitHub\solid-fortnight\MyWinFormsApp\obj\Debug\net9.0-windows\ref\MyWinFormsApp.dll
+C:\Users\hansupo\Documents\GitHub\solid-fortnight\MyWinFormsApp\obj\Debug\net9.0-windows\MyWinFormsApp.sourcelink.json

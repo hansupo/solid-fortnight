@@ -14,6 +14,7 @@ public partial class Form1 : Form
     public Form1()
     {
         InitializeComponent(); // Initialize the form components
+  //      this.FormBorderStyle = FormBorderStyle.FixedSingle; // Disable resizing
         CreateCalculatorUI(); // Create the calculator user interface
     }
 
@@ -29,7 +30,7 @@ public partial class Form1 : Form
             Dock = DockStyle.Top,
             Height = 60,
             TextAlign = System.Drawing.ContentAlignment.MiddleRight,
-            Font = new System.Drawing.Font("Arial", 24),
+            Font = new System.Drawing.Font("Arial", 16),
 //            BorderStyle = BorderStyle.FixedSingle,
             Padding = new Padding(10),
             Margin = new Padding(10)
@@ -54,10 +55,10 @@ public partial class Form1 : Form
             var button = new Button
             {
                 Text = i.ToString(),
-                Font = new System.Drawing.Font("Arial", 18),
+                Font = new System.Drawing.Font("Arial", 14),
                 Dock = DockStyle.Fill,
                 Margin = new Padding(5),
-                Height = 50,
+                Height = 30,
                 ForeColor = System.Drawing.Color.DarkSlateGray
             };
             button.Click += NumberButton_Click; // Attach click event handler
@@ -68,7 +69,7 @@ public partial class Form1 : Form
         var button0 = new Button
         {
             Text = "0",
-            Font = new System.Drawing.Font("Arial", 18),
+            Font = new System.Drawing.Font("Arial", 14),
             Dock = DockStyle.Fill,
             Margin = new Padding(5),
             Height = 50
@@ -80,7 +81,7 @@ public partial class Form1 : Form
         var buttonDivide = new Button
         {
             Text = "/",
-            Font = new System.Drawing.Font("Arial", 18),
+            Font = new System.Drawing.Font("Arial", 14),
             Dock = DockStyle.Fill,
             Margin = new Padding(5),
             Height = 50
@@ -91,7 +92,7 @@ public partial class Form1 : Form
         var buttonMultiply = new Button
         {
             Text = "*",
-            Font = new System.Drawing.Font("Arial", 18),
+            Font = new System.Drawing.Font("Arial", 14),
             Dock = DockStyle.Fill,
             Margin = new Padding(5),
             Height = 50
@@ -102,7 +103,7 @@ public partial class Form1 : Form
         var buttonMinus = new Button
         {
             Text = "-",
-            Font = new System.Drawing.Font("Arial", 18),
+            Font = new System.Drawing.Font("Arial", 14),
             Dock = DockStyle.Fill,
             Margin = new Padding(5),
             Height = 50
@@ -113,7 +114,7 @@ public partial class Form1 : Form
         var buttonPlus = new Button
         {
             Text = "+",
-            Font = new System.Drawing.Font("Arial", 18),
+            Font = new System.Drawing.Font("Arial", 14),
             Dock = DockStyle.Fill,
             Margin = new Padding(5),
             Height = 50
@@ -125,7 +126,7 @@ public partial class Form1 : Form
         var buttonCalculate = new Button
         {
             Text = "=",
-            Font = new System.Drawing.Font("Arial", 18),
+            Font = new System.Drawing.Font("Arial", 14),
             Dock = DockStyle.Fill,
             Margin = new Padding(5),
             Height = 50
